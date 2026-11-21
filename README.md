@@ -1,10 +1,7 @@
-# HealthConnect Clinic Experience Lab — Data Analytics
+# HealthConnect Clinic Experience Lab - Data Analytics
 
-**Programme:** AnalystLab Africa Experience Lab  
-**Track:** Data Analytics  
-**Pod:** HC-POD 4  
 **Project:** Improving Patient Appointment Attendance Using Data and AI  
-**Final Stage:** Week 8 (Final Integration, Presentation & Project Showcase)
+**Final Stage:** Final Integration, Presentation & Project Showcase
 
 
 ## 📖 Project Overview
@@ -12,9 +9,11 @@ HealthConnect Clinic is an outpatient healthcare provider facing operational los
 
 Over 51% of scheduled appointments result in unannounced no-shows. This project analyzes 5,000 appointment records to uncover no-show patterns, validate communication channels, and deliver actionable operational rules to recover lost clinic capacity.
 
+## HealthConnect Visualizations
+![HealthConnect Charts](https://github.com/Otto-a/HealthConnect-Final-Analytics---Decision-Support-Package/blob/main/healthconnect_chart_visualizations.png)
 
 
-## 🚀 5-Week Project Journey (Weeks 4–8)
+##  5-Week Project Journey (Weeks 4–8)
 
 * **Week 4 (Kickoff & Problem Definition):** Audited the 5,000-record dataset. Verified logic integrity. Identified 4 key business questions and defined core KPIs.
 * **Week 5 (Exploratory Data Analysis):** Imputed missing values with medians. Cleaned and separated cancelled visits. Discovered that SMS outperforms email and that no-shows book 10 days earlier on average.
@@ -24,7 +23,7 @@ Over 51% of scheduled appointments result in unannounced no-shows. This project 
 
 
 
-## 📊 Core Verified KPIs
+##  Core Verified KPIs
 
 | KPI Metric | Calculation | Verified Result | Business Meaning |
 | :--- | :--- | :--- | :--- |
@@ -43,7 +42,7 @@ Over 51% of scheduled appointments result in unannounced no-shows. This project 
 4. **Senior Reliability:** Patients aged 65+ are the most reliable attending group (**48.07%** no-show rate).
 
 
-## 📋 Actionable Clinic Scheduling Rules
+##  Actionable Clinic Scheduling Rules
 
 * **Rule 1 (Two-Stage SMS Reminders):** Trigger SMS reminders at 7 days and 48 hours for bookings over 21 days old.
 * **Rule 2 (SMS Mandate for Follow-Ups):** Route all follow-up appointment reminders exclusively through SMS.
@@ -55,4 +54,6 @@ Over 51% of scheduled appointments result in unannounced no-shows. This project 
 ## 🤝 Cross-Track Collaboration (HC-POD 4)
 
 * **Data Science:** Provided empirical cut-offs (`lead_days > 30`, `past_no_shows >= 2`). Enabled model to achieve **99.8% recall** on long-lead visits.
+
+
 
